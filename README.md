@@ -1,4 +1,4 @@
-## DSC 465 baseball project 
+## DSC 465 Baseball Project
 
 Repository for DSC 465 Baseball Project: Predicting Outcomes in Baseball
 
