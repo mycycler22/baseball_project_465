@@ -1,0 +1,28 @@
+---
+title: "baseball_data_conversion"
+format: html
+---
+
+
+```{r}
+pitch_data_25 <- sabRmetrics::download_baseballsavant(
+  start_date = "2025-03-01",
+   end_date = "2025-04-01",
+   game_type = "R"
+)
+
+
+pitch_data_25 <- pitch_data_25 |>
+  sabRmetrics::get_quadratic_coef(source = "baseballsavant") |>
+  sabRmetrics::get_trackman_metrics()
+
+
+write_csv(pitch_data_25, "pitches.csv")
+```
+
+
+
+
+
+
+
