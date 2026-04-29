@@ -3,6 +3,11 @@ title: "baseball_data_conversion"
 format: html
 ---
 
+```{r}
+library(tidyverse)
+library(readr)
+
+```
 
 ```{r}
 pitch_data_25 <- sabRmetrics::download_baseballsavant(
