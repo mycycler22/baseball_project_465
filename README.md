@@ -8,3 +8,5 @@ Repository includes:
   - Quarto document importing the dataset
   - Data - all pitches in the month of March
 
+HuggingFace Link: https://huggingface.co/spaces/mycycler22/baseball_model
+
